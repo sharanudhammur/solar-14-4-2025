@@ -12,21 +12,9 @@ export default function AboutUs() {
     <div className="about-us-component">
       <LayoutContainer>
         <section className="section1">
-          <div
-            className="title"
-            data-aos="fade-left"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-          >
-            About Us
-          </div>
+          <div className="title">About Us</div>
           <div className="about-section">
-            <div
-              className="content"
-              data-aos="fade-left"
-              data-aos-delay="0"
-              data-aos-duration="1000"
-            >
+            <div className="content">
               <p className="desc">
                 <span style={{ color: "#3182ce", fontWeight: 500 }}>
                   "SHIVA SAI SOALR SLYSTEM"
@@ -52,20 +40,12 @@ export default function AboutUs() {
               </p>
             </div>
             <Image
-              data-aos="fade-left"
-              data-aos-delay="100"
-              data-aos-duration="1000"
               src={img1}
               alt="Solar Panel Factory"
               className="section-image"
             />
           </div>
-          <p
-            className="desc"
-            data-aos="fade-left"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-          >
+          <p className="desc">
             To empower every individual by providing access to safe and reliable
             power at affordable cost by combining innovative technology and
             skill to give high performance products to ensure trust and faith in
@@ -74,19 +54,11 @@ export default function AboutUs() {
           </p>
           <div className="about-section">
             <Image
-              data-aos="fade-left"
-              data-aos-delay="100"
-              data-aos-duration="1000"
               src={img2}
               alt="Solar Panel Factory"
               className="section-image"
             />
-            <div
-              className="content"
-              data-aos="fade-left"
-              data-aos-delay="100"
-              data-aos-duration="1000"
-            >
+            <div className="content">
               <p className="desc">
                 As the pre-eminent technology and production enterprises, we are
                 committed to endowing our esteemed clients with unmatchable
