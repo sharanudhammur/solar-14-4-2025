@@ -22,7 +22,7 @@ export const metadata = {
     title: "Shiva Sai Solar System | Royal Dart Blaze",
     description:
       "Leading provider of solar systems and energy solutions. Explore Royal Dart Blaze today!",
-    url: "https://yourdomain.com",
+    url: "https://royaldartblaze.com",
     siteName: "Shiva Sai Solar System",
     images: [
       {
