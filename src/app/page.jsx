@@ -10,6 +10,11 @@ import LayoutContainer from "@/components/LayoutContainer";
 import Footer from "@/components/Footer";
 import "aos/dist/aos.css";
 
+export const metadata = {
+  title: 'SHIVA SAI SOLAR SYSTEM | ROYAL DART BLAZE - Official Site',
+  description: 'Get the best deals on SHIVA SAI SOLAR SYSTEM and explore the powerful ROYAL DART BLAZE products. Trusted by thousands!',
+};
+
 export default function Home() {
   return (
     <>
