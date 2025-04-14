@@ -13,7 +13,7 @@ export default function AboutUs() {
       <LayoutContainer>
         <section className="section1">
           <div className="title">About Us</div>
-          <div className="about-section">
+          <div className="about-section about-section1">
             <div className="content">
               <p className="desc">
                 <span style={{ color: "#3182ce", fontWeight: 500 }}>
@@ -38,38 +38,48 @@ export default function AboutUs() {
                 made us one of the leading and trusted company in renewable
                 sector. country.
               </p>
+              <p className="desc">
+                To empower every individual by providing access to safe and
+                reliable power at affordable cost by combining innovative
+                technology and skill to give high performance products to ensure
+                trust and faith in all the customers. We at "SHIVA SAI SOLAR
+                SYSTEM" have the latest infrastructure & equipment for
+                processing the products.
+              </p>
             </div>
-            <Image
-              src={img1}
+            <img
+              src="https://atlas-content-cdn.pixelsquid.com/stock-images/solar-water-heater-rvMxER6-600.jpg"
               alt="Solar Panel Factory"
-              className="section-image"
+              className="section-image img1"
             />
           </div>
-          <p className="desc">
-            To empower every individual by providing access to safe and reliable
-            power at affordable cost by combining innovative technology and
-            skill to give high performance products to ensure trust and faith in
-            all the customers. We at "SHIVA SAI SOLAR SYSTEM" have the latest
-            infrastructure & equipment for processing the products.
-          </p>
-          <div className="about-section">
-            <Image
-              src={img2}
+
+          <div className="about-section about-section2">
+            <img
+              src="https://5.imimg.com/data5/ANDROID/Default/2024/10/455286058/DX/LQ/PS/30791316/product-jpeg-500x500.jpg"
               alt="Solar Panel Factory"
-              className="section-image"
+              className="section-image img1"
             />
             <div className="content">
               <p className="desc">
-                As the pre-eminent technology and production enterprises, we are
-                committed to endowing our esteemed clients with unmatchable
-                quality and complete satisfaction, through our quality products
-                and services. We believe in our capability to meet competition
-                globally in quality and technology.
+                We are a leading technology and production enterprise, dedicated
+                to delivering unmatched quality and complete customer
+                satisfaction. With a strong focus on innovation and service
+                excellence, we proudly meet global standards in both quality and
+                technology, ensuring our clients always receive the best.
               </p>
               <p className="desc">
-                We also in the field of Solar Photovoltaic Module, Solar Home
-                Light, Solar Street Light, Solar Lantern, Solar Power Plant,
-                Solar Invertors and May More.
+                Our expertise covers a wide range of solar solutions, including
+                Solar Photovoltaic Modules, Solar Home Lighting Systems, Solar
+                Street Lights, Solar Lanterns, Solar Power Plants, Solar
+                Inverters, and many more. Every product is designed to be
+                efficient, durable, and environmentally friendly.
+              </p>
+              <p className="desc">
+                Driven by a commitment to clean energy, we continue to grow and
+                innovate in the solar industry. Our goal is to empower our
+                customers with sustainable, high-quality products that
+                contribute to a greener future.
               </p>
             </div>
           </div>
