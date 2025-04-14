@@ -26,7 +26,7 @@ export const metadata = {
     siteName: "Shiva Sai Solar System",
     images: [
       {
-        url: "https://yourdomain.com/solar-banner.jpg", // good image for sharing
+        url: "https://5.imimg.com/data5/SELLER/Default/2021/1/BJ/ZX/NM/62776080/solar-water-heater-500x500.jpg", // good image for sharing
         width: 1200,
         height: 630
       }
