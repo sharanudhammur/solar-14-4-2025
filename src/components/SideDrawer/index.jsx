@@ -139,6 +139,12 @@ export default function SideDrawer({ isOpen, onClose }) {
             {/* </Button> */}
           </Link>
 
+          <Link href="/gallery" passHref onClick={onClose}>
+            {/* <Button variant="ghost" colorScheme="whiteAlpha" w="100%" onClick={onClose}> */}
+            Gallery
+            {/* </Button> */}
+          </Link>
+
           <Link href="/contact" passHref onClick={onClose}>
             {/* <Button variant="ghost" colorScheme="whiteAlpha" w="100%" onClick={onClose}> */}
             Contact
