@@ -1,0 +1,46 @@
+.brochure-component {
+  text-align: center;
+  margin-top: 40px;
+  .desc {
+    margin-bottom: 25px;
+  }
+
+  .brochure-wrapper {
+    max-width: 800px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .floating-download-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #fff;
+    color: #3182ce;
+    border: none;
+    border-radius: 50%;
+    padding: 16px;
+    font-size: 1.3rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #e0b700;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .brochure-component {
+    .floating-download-button {
+      bottom: 20px;
+      right: 20px;
+    }
+  }
+}
