@@ -13,7 +13,7 @@ export const getMetaInfo = (page) => {
       siteName: "Shiva Sai Solar System",
       images: [
         {
-          url: "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-img1.435fe357.png&w=3840&q=75", // good image for sharing
+          url: "https://raw.githubusercontent.com/sharanudhammur/solar-14-4-2025/refs/heads/main/src/Assets/Images/hero-img1.png", // good image for sharing
           width: 1200,
           height: 630
         }
