@@ -94,6 +94,7 @@ import React from "react";
 import "./styles.scss";
 import { FaStar } from "react-icons/fa";
 import LayoutContainer from "../LayoutContainer";
+import { IoPersonCircleSharp } from "react-icons/io5";
 
 const achievements = [
   {
@@ -197,10 +198,13 @@ export default function WhereCodersShine() {
                           alignItems: "start"
                         }}
                       >
-                        <img
+                        {/* <img
                           src={item.avatar}
                           alt={item.name}
                           className="avatar"
+                        /> */}
+                        <IoPersonCircleSharp
+                          style={{ fontSize: "40px", color: "lightgray" }}
                         />
                         <div className="details">
                           <div className="name">{item.name}</div>
