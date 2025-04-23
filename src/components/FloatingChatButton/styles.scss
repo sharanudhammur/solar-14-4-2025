@@ -1,0 +1,30 @@
+.floating-chat-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 999;
+  transition: transform 0.1s ease;
+
+  &:hover {
+    // transform: scale(1.1);
+    background-color: #0ea345;
+  }
+
+  svg {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .floating-chat-button {
+    bottom: 25px;
+    right: 20px;
+  }
+}
